@@ -1,0 +1,97 @@
+/* Colors and Fonts */ 
+
+body {
+	background: #745296;
+	color: #091540;
+	font-family: 'Lora', serif;
+	font-size: 17px
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: #091540;
+	font-weight: 900;
+}
+
+h2{
+	color: #091540;
+	font-weight: 500;
+}
+
+h3{
+	font-weight: 300;
+	font-weight: bolder; 
+}
+
+
+
+a{
+	text-decoration: none;
+	color: #4d089a;
+}
+
+a:hover {
+	color: #0353A4;
+}
+
+
+
+/* Custoem design with class*/ 
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: #C2BBF0;
+	padding: 60px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+	border-radius: 4px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50px;
+}
+
+.btn-blue {
+	background-color: #3D348B;
+	color: white; 
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #745296;
+	color: white;
+}
+
+.line-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.line-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.line-inline i {
+	font-size: 50px;
+	color: #3D348B;
+}
+
+.line-inline i:hover {
+	color: #745296;
+}
+
+#intro p {
+	margin-bottom: 40px;
+}
+
+
+#f4eeff6
